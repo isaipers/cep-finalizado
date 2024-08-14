@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.nave {
+    background-color: #fafd33;
+    color: #000000;
+    padding: 25px;
+}
+
+.nave ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nave li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.faixa {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #366cff;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon {
+    width: 30px; 
+    height: 30px; 
+}
+.header-container {
+    display: flex; 
+    align-items: center; 
+    padding: 20px; 
+}
